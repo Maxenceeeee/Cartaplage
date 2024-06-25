@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DetailsActivity</string>
+    <string name="nom">La plage de Virechat</string>
+    <string name="description">Petite anse située à l’ouest de Saint-Nazaire, la plage de Virechat est idéale pour les amoureux de nature notamment grâce à son paysage préservé.</string>
+    <string name="lien">Pour en savoir plus sur cette plage, cliquez ici</string>
+    <string name="largeur">Largeur</string>
+    <string name="longueur">longueur</string>
+    <string name="Largeur2">L</string>
+    <string name="longueur2">l</string>
+    <string name="bouton1">Carte des plages</string>
+    <string name="bouton2">Liste des plages</string>
+    <string name="bouton3">Lancer le service</string>
+    <string name="msg">Aller vers la cartes</string>
+    <string name="msg2">Aller vers la liste</string>
+    <string name="plage">La Palmyre les Mathes</string>
+    <string name="plagedesc">La Palmyre est un quartier résidentiel et touristique</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

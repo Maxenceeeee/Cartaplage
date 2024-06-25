@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listeFragment">
+
+    <fragment
+        android:id="@+id/listeFragment"
+        android:name="fr.iia_formation.detailsactivity.gui.ListeFragment"
+        android:label="ListeFragment" >
+        <action
+            android:id="@+id/action_listeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_listeFragment_to_ajouterPlageFragment"
+            app:destination="@id/ajouterPlageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="fr.iia_formation.detailsactivity.gui.DetailsFragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="plageId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+    <fragment
+        android:id="@+id/ajouterPlageFragment"
+        android:name="fr.iia_formation.detailsactivity.gui.AjouterPlageFragment"
+        android:label="fragment_ajouter_plage"
+        tools:layout="@layout/fragment_ajouter_plage" />
+</navigation>
